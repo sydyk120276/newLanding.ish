@@ -32,7 +32,7 @@ button {
   @return $result;
 }
 
-$maxWidthContainer: 1440px;
+$maxWidthContainer: 1366px;
 
 @mixin adaptive-value($property, $startSize, $minSize) {
   $addSize: $startSize - $minSize;
@@ -48,8 +48,8 @@ $mobileSmall: rem(479.98); // телефоны s
   .container {
     max-width: $maxWidthContainer;
     margin: 0 auto;
-    @include adaptive-value("padding-left", 60, 10);
-    @include adaptive-value("padding-right", 60, 10);
+    @include adaptive-value("padding-left", 120, 10);
+    @include adaptive-value("padding-right", 120, 10);
   }
 
 
@@ -153,7 +153,9 @@ $mobileSmall: rem(479.98); // телефоны s
 
 
 .main {
-        padding-top: rem(70);
+    padding-top: rem(70);
+    @include adaptive-value("padding-bottom", 60, 10);
+    border-bottom: 4px solid #FD591F;
       &__title {
 
       }
@@ -161,7 +163,7 @@ $mobileSmall: rem(479.98); // телефоны s
       &__block {
           display: grid;
           grid-template-columns: auto auto;
-          grid-template-rows: rem(180) rem(300);
+          grid-template-rows: rem(210) rem(150);
             &-text {
               font-style: normal;
               font-weight: 500;
@@ -169,10 +171,17 @@ $mobileSmall: rem(479.98); // телефоны s
               line-height: rem(24);
               letter-spacing: -0.02em;
               color: #000000;
-              padding-top: rem(35);
+              padding-top: rem(50);
             }
 
             &-img {
+              justify-content: end;
+              
+              width: 100%;
+              &-picture {
+                width: 105%;
+                height: 100%;
+              }
             }
 
             &-form {
