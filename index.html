@@ -18,24 +18,31 @@
     <!-- HEADER  START-->
 
     <div class="header">
-      <img class="header__logo" src="img/icon/Logo.png" alt="logo">
-      <div class="header__menu">
-        <a href="#" class="header__menu-item">О нас</a>
-        <a href="#" class="header__menu-item">Услуги</a>
-        <a href="#" class="header__menu-item">Оставить заявку</a>
+      <div class="header__block">
+      <img class="header__block__logo" src="img/icon/Logo.png" alt="logo">
+      <div class="header__block-menu">
+        <a href="#main" class="header__block-menu-item">О нас</a>
+        <a href="#info" class="header__block-menu-item">Услуги</a>
+        <a href="#mission" class="header__block-menu-item">Оставить заявку</a>
       </div>
-      <div class="header__nav">
-        <a class="header__nav-telegram-link telegram-link" href="https://www.t.me/news_ish_kg">
+      <div class="header__block-nav">
+        <a class="header__block-nav-telegram-link telegram-link" href="https://www.t.me/news_ish_kg">
           <img class="telegram-link__logo" src="img/icon/LogoTelegram.png" alt="telegram">
-          <span class="telegram-link__title">Новости сервиса</span>
+          <span class="telegram-link__title">Новости проекта</span>
         </a>
+      </div>
+      </div>
+      <div class="header__mobile">
+        <a href="#" class="header__mobile-item">О нас</a>
+        <a href="#" class="header__mobile-item">Услуги</a>
+        <a href="#" class="header__mobile-item">Оставить заявку</a>
       </div>
     </div>
     <!-- HEADER  END-->
 
     <!-- MAIN START-->
 
-    <section class="main">
+    <section id="main" class="main">
       <span class="main__title">Платформа для заданий</span>
 
       <div class="main__block">
@@ -61,71 +68,112 @@
 
     <!-- INFO START-->
 
-    <section class="info">
-      <div class="info__line"></div>
-      <div class="info__content">
-        <div class="info__content-questions">
-          <div class="info__content-questions-first">
-            <img class="info-icon " src="img/Question.png" alt="questions">
-            <a href="#" class="info__content-questions-first-text ">Нужно что-то сделать, но
-              нет
-              <br> времени или просто
-              лень?</a>
-          </div>
-          <div class="info__content-questions-second">
-            <img class="info-icon " src="img/Question.png" alt="questions">
-            <a href="#" class="info__content-questions-second-text ">Срочно нужна подработка?
-            </a>
-          </div>
+    <section id="info" class="info">
+      <span class="info__title">КАК ЭТО РАБОТАЕТ?</span>
+      <div class="info__text">
+      <span >ISH.KG - это самая удобная платформа для тех, кто ищет помощь и кто ищет дополнительный заработок!
+          Это беспроигрышная и очень полезная платформа, которая будет всегда актуальна!
+        </span>
+      </div>
+      <div class="info__block">
+        <div class="info__block--first">
+          <span class="info__block--first-title">Если вам срочно понадобилось<br> помощь, к примеру:</span>
+          <ul class="info__block--first-list">
+            <li class="info__block--first-list-item">уборку дома</li>
+            <li class="info__block--first-list-item">приклеить обои </li>
+            <li class="info__block--first-list-item">помочь с переездом </li>
+            <li class="info__block--first-list-item">услуги няни</li>
+            <li class="info__block--first-list-item">починить ваше авто с выездом на дом</li>
+            <li class="info__block--first-list-item">наколить дрова</li>
+            <li class="info__block--first-list-item">составить презентацию</li>
+            <li class="info__block--first-list-item">графический дизайн</li>
+            <li class="info__block--first-list-item">аренда автомобиля </li>
+            <li class="info__block--first-list-item">и многое другое...</li>
+          </ul>
+          <img class="info__block--first-img" src="img/info_image_1.png" alt="">
         </div>
-        <div class="info__content-answeas">
-          <div class="info__content-answeas-first">
-            <img class="info-icon " src="img/Answea.png" alt="answeas">
-            <a href="#" class="info__content-answeas-first-text ">Легко и быстро найдёте <br>
-              исполнителя на любое <br> задание</a>
-          </div>
-          <div class="info__content-answeas-second">
-            <img class="info-icon " src="img/Answea.png" alt="answeas">
-            <a href="#" class="info__content-answeas-second-text ">Зарабатывайте, выполняя <br>
-              разнообразные несложные <br> задания </a>
-          </div>
+        <div class="info__block--second">
+          <span class="info__block--second-title">Здесь вы найдете тех, кто готов<br>  вам помочь с вашим вопросом!</span>
+          <span>Вы просто: </span>
+          <ul class="info__block--second-list">
+            <li class="info__block--second-list-item">выбираете, кто вам<br> нужен</li>
+            <li class="info__block--second-list-item">обговариваете детали<br> лично</li>
+            <li class="info__block--second-list-item">оплачиваете его<br> заработок</li>
+          </ul>
+           <img class="info__block--second-img" src="img/info_image_2.png" alt="">
+        </div>
+        <div class="info__block--third">
+          <span class="info__block--third-title">Регистрируйтесь и ищите своих специалистов<br> или найдите свой заработок! </span>
+          <button class="info__block--third-button">Регистрация</button>
+           <img class="info__block--third-img" src="img/info_image_3.png" alt="">
         </div>
       </div>
+
     </section>
 
-  </div>
-  <!-- INFO END-->
+      <!-- INFO END-->
 
-  <!-- FOOTER START-->
-
+      <!-- MISSION START-->
 
 
-  <div class="footer">
-    <div class="container">
-      <div class="footer__container">
-        <span class="footer__container-title ">Оставьте почту</span>
-        <span class="footer__container-text ">Мы уведомим о запуске!</span>
-
-        <form action="" autocomplete="off" class="footer__container-form" id="form">
-          <div class="footer__container-form-box">
-            <input autocomplete="off" class="footer__container-form-box-input " name="email" id="email" type="text"
-              placeholder="Адрес почты">
+      <section id="mission" class="mission">
+        <span class="mission__title">ПОЧЕМУ ИМЕННО МЫ?</span>
+        <div class="mission__block">
+          <div class="mission__block-first">
+            <span><a href="#">Ish.kg </a> -  это простой способ решения<br> своих повседневных задач через<br> специалистов для которых может<br> стать дополнительным заработком </span>
+            <span>Мы создаём площадку,<br> ориентированную на Real Life<br> задания! </span>
           </div>
-          <button class="footer__container-form-button ">Подписаться</button>
-        </form>
+          <div class="mission__block-second">
+            <span><a href="#">Наша миссия</a> - стать вашим мостиком и стать<br> надежным партнером и спутником в решении<br> ваших вопросов и задач! </span>
+            <span>Здесь ты найдешь все, что искал!<br> Заработать просто! </span>
+          </div>
+        </div>
 
-        <span class="footer__container-rules ">By continuing, you agree that we create an
-          account for you (unless already
-          created), and accept <br> our Terms and Conditions and Privacy Policy.</span>
-        <span class="footer__container-copy">© 2022 ISH.KG</span>
-      </div>
-    </div>
+      </section>
+
+
+        <!-- MISSION END-->
+
+        <!-- FOOTER START-->
+
+        <section class="footer">
+          <div class="footer__logo">
+            <img src="img/icon/Logo.png" alt="">
+          </div>
+          <div class="footer__block">
+            <div class="footer__block--menu">
+              <span>О нас:</span>
+              <div class="footer__block--menu-list">
+                <a href="#" class="footer__block--menu-list-item">Наша миссия</a>
+                <a href="#" class="footer__block--menu-list-item">Контакты</a>
+                <a href="#" class="footer__block--menu-list-item">Обратная связь</a>
+                <a href="#" class="footer__block--menu-list-item">Политика конфиденциальности</a>
+                <a href="#" class="footer__block--menu-list-item">Условия использования</a>
+                <a href="#" class="footer__block--menu-list-item">Реклама на сайте</a>
+                <a href="#" class="footer__block--menu-list-item">Вакансии</a>
+              </div>
+            </div>
+            <div class="footer__block--social">
+              <span>Мы в социальных сетях: </span>
+              <div class="footer__block--social-icon">
+                <a href="#"><img src="img/icon/Instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="img/icon/Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/icon/Telegram_App.png" alt="Telegram_App"></a>
+                <a href="#"><img src="img/icon/TikTok.png" alt="TikTok"></a>
+                <a href="#"><img src="img/icon/YouTube.png" alt="YouTube"></a>
+              </div>
+            </div>
+            <div class="footer__block--link">
+              <a class="footer__block--link-item" href="#">Заказчикам</a>
+              <a class="footer__block--link-item" href="#">Исполнителям</a>
+              <a class="footer__block--link-item" href="#">Оплата</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- FOOTER END-->
+
   </div>
-
-
-  <!-- FOOTER END-->
-
-
 </body>
 
 <!-- Подключение скриптов -->
