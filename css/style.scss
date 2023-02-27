@@ -234,7 +234,7 @@ $mobileSmall: rem(479.98); // телефоны s
             }
 
             &-img {
-             height: rem(380);
+             height: rem(430);
 
                 @media (max-width: $tablet) {
                   position: relative;
@@ -260,7 +260,8 @@ $mobileSmall: rem(479.98); // телефоны s
                   margin: rem(50) 0;
                 }
               &-picture {
-                width: 97%;
+                width: 100%;
+                height: 100%;
                  @media (max-width: $tablet) {
                    height: 80%;
                  }
@@ -307,7 +308,7 @@ $mobileSmall: rem(479.98); // телефоны s
                   width: 65%;
               }
                 &-input {
-                  width: 93%;
+                  width: 94%;
                   height: 100%;
                   border-radius: rem(8) rem(24) rem(24) rem(8);
                   border-color: #4453D9;
@@ -320,10 +321,10 @@ $mobileSmall: rem(479.98); // телефоны s
                   color: rgba(0, 0, 0, 0.65);
                   outline: none;
                     @media (max-width: $pc) {
-                        width: 90%;;
+                        width: 91%;;
                     }
                     @media (max-width: $tablet) {
-                        width: 87%;
+                        width: 90%;
                     }
                     @media (max-width: $mobile) {
                        width: 88%;

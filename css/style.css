@@ -277,7 +277,7 @@ button {
 }
 
 .main__block-img {
-  height: 23.75rem;
+  height: 26.875rem;
 }
 
 @media (max-width: 61.99875rem) {
@@ -312,7 +312,8 @@ button {
 }
 
 .main__block-img-picture {
-  width: 97%;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 61.99875rem) {
@@ -381,7 +382,7 @@ button {
 }
 
 .main .main-form__block-input {
-  width: 93%;
+  width: 94%;
   height: 100%;
   border-radius: 0.5rem 1.5rem 1.5rem 0.5rem;
   border-color: #4453D9;
@@ -397,13 +398,13 @@ button {
 
 @media (max-width: 92.5rem) {
   .main .main-form__block-input {
-    width: 90%;
+    width: 91%;
   }
 }
 
 @media (max-width: 61.99875rem) {
   .main .main-form__block-input {
-    width: 87%;
+    width: 90%;
   }
 }
 
