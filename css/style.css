@@ -27,6 +27,10 @@ button {
 }
 
 .header {
+  position: fixed;
+  width: 86.5%;
+  z-index: 5;
+  background: white;
   display: flex;
   height: 6.25rem;
   border-bottom: 4px solid #FD591F;
@@ -115,7 +119,12 @@ button {
 }
 @media (max-width: 47.99875rem) {
   .telegram-link {
-    padding: 0.3125rem 1rem;
+    padding: 0.1875rem 0.75rem;
+  }
+}
+@media (max-width: 29.99875rem) {
+  .telegram-link {
+    padding: 0.125rem 0.5rem;
   }
 }
 @media (max-width: 47.99875rem) {
@@ -133,7 +142,7 @@ button {
   color: #FFFFFF;
 }
 .main {
-  padding-top: 4.375rem;
+  padding-top: 9.375rem;
   padding-bottom: calc(40px + 35 * ((100vw - 320px) / 1440));
   border-bottom: 4px solid #FD591F;
 }
@@ -141,6 +150,7 @@ button {
   .main {
     border-bottom: 2px solid #FD591F;
     text-align: center;
+    padding-top: 7.5rem;
   }
 }
 .main__title {
@@ -353,6 +363,11 @@ button {
 @media (max-width: 360px) {
   .main .main-form__block-input {
     width: 68%;
+  }
+}
+@media (max-width: 280px) {
+  .main .main-form__block-input {
+    width: 64%;
   }
 }
 .main .main-form__block-button {
@@ -757,5 +772,15 @@ button {
 @media (max-width: 61.99875rem) {
   .just-validate-error-label {
     font-size: 0.8125rem;
+  }
+}
+@media (max-width: 29.99875rem) {
+  .just-validate-error-label {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 280px) {
+  .just-validate-error-label {
+    font-size: 0.6875rem;
   }
 }/*# sourceMappingURL=style.css.map */
