@@ -57,12 +57,15 @@ $mobileSmall: rem(479.98); // телефоны s
 
   .header {
     position: fixed;
-    width: 86.5%;
+    width: $maxWidthContainer;
     z-index: 5;
     background: white;
     display: flex;
     height: rem(100);
     border-bottom: 4px solid #FD591F;
+     @media (max-width: $pc) {
+        width: 86.5%;
+      }
       @media (max-width: $tablet) {
         height: rem(90);
       }
@@ -319,7 +322,7 @@ $mobileSmall: rem(479.98); // телефоны s
                   width: 85%;
               }
                 &-input {
-                  width: 82%;
+                  width: 87%;
                   height: 100%;
                   border-radius: rem(8) rem(24) rem(24) rem(8);
                   border-color: #4453D9;
@@ -333,13 +336,19 @@ $mobileSmall: rem(479.98); // телефоны s
                   color: rgba(0, 0, 0, 0.65);
                   outline: none;
                     @media (max-width: $pc) {
+                        width: 85%;
+                    }
+                    @media (max-width: 1300px) {
+                        width: 82%;
+                    }
+                    @media (max-width: 1120px) {
                         width: 79%;
                     }
                     @media (max-width: $tablet) {
-                      width: 76%;
+                      width: 81%;
                     }
-                    @media (max-width: 875px) {
-                      width: 72%;
+                    @media (max-width: 880px) {
+                      width: 78%;
                     }
                     @media (max-width: $mobile) {
                        width: 83%;
@@ -354,10 +363,10 @@ $mobileSmall: rem(479.98); // телефоны s
                       width: 72%;
                     }
                     @media (max-width: 360px) {
-                      width: 68%;
+                      width: 65%;
                     }
-                    @media (max-width: 280px) {
-                      width: 64%;
+                    @media (max-width: 290px) {
+                      width: 62%;
                     }
                 }
 
