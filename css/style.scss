@@ -266,6 +266,7 @@ $mobileSmall: rem(479.98); // телефоны s
                 @media (max-width: $mobile) {
                   height: rem(350);
                   margin: rem(50) 0;
+                  justify-content: center;
                 }
                 @media (max-width: $mobileSmall) {
                   height: rem(240);

@@ -324,6 +324,9 @@ button {
   .main__block-img {
     height: 21.875rem;
     margin: 3.125rem 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
