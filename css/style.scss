@@ -246,7 +246,8 @@ $mobileSmall: rem(479.98); // телефоны s
 
             &-img {
              height: rem(430);
-
+             display: flex;
+             justify-content: end;
                 @media (max-width: $tablet) {
                   position: relative;
                   height: rem(280);
@@ -271,8 +272,8 @@ $mobileSmall: rem(479.98); // телефоны s
                   margin: rem(50) 0;
                 }
               &-picture {
-                width: 100%;
-                height: 100%;
+                // width: 100%;
+                // height: 100%;
                  @media (max-width: $tablet) {
                    height: 80%;
                  }
